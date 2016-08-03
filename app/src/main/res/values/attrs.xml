@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomBar">
+        <attr name="leftStartColor" format="color" />
+        <attr name="leftEndColor" format="color" />
+        <attr name="rightStartColor" format="color" />
+        <attr name="rightEndColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="dashSpace" format="dimension" />
+        <attr name="dashAngle" format="integer" />
+        <attr name="value" format="integer" />
+
+    </declare-styleable>
+</resources>

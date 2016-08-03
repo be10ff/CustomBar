@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    tools:context="com.example.artem.custombar.MainActivity">
+
+
+    <com.example.artem.custombar.CustomBar
+        android:id="@+id/cbBar"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_margin="12dp"
+        custom:value="50"
+        custom:leftStartColor="#ff0000"
+        custom:leftEndColor="#00ff00"
+
+        custom:rightStartColor="#ff0000"
+        custom:rightEndColor="#00ff00"
+        custom:cornerRadius="18dp"
+        custom:dashAngle="60"
+        custom:dashSpace="6dp"
+        />
+
+</LinearLayout>
